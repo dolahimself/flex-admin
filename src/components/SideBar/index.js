@@ -20,7 +20,7 @@ const SideBar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <a href="https://github.com/dolahimself" className="active">
+          <a href="https://github.com/dolahimself">
             <Icon
               className="links_icon"
               sx={{ fontSize: 22, color: "#a6a6a6" }}

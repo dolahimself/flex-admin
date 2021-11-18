@@ -447,26 +447,26 @@ nav .profile-details i {
   height: 400px;
   border-radius: 1rem;
 }
+
 .images .images-grid .image .image-img .review {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
+  /* position: absolute; */
+  top: 10;
+  left: 10;
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
+  width: fill-available;
   height: 40px;
-  background-color: #ff9200;
-  color: rgba(0, 0, 0, 0.9);
-  border-radius: 0 0 16px 0;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-size: 2rem;
+  /* background-color: #ff9200; */
+  color: #000072;
 }
+
 .images .images-grid .image .image-img .overview {
   line-height: 1.5;
   position: absolute;
   bottom: 0;
-  background-color: rgba(255, 146, 0, 0.75);
+  background-color: #fff;
   padding: 12px;
   color: #fff;
   transform: translateY(100%);

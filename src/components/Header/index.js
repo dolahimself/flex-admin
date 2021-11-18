@@ -3,12 +3,12 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { createApi } from "unsplash-js";
 
-const Header = () => {
+const Header = (props) => {
+  const { setSearchResults } = props;
   const [searchText, setSearchText] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
 
   const unsplash = new createApi({
-    accessKey: process.env.API_KEY,
+    accessKey: "ikCcOOSUO28c0x8ec48KC1DZdT5GckI6VET5hJoYKpw",
   });
 
   async function searchPhotos() {
@@ -19,7 +19,7 @@ const Header = () => {
           page: 1,
           perPage: 10,
         })
-        .then((data) => console.log(data.response.results));
+        .then((data) => setSearchResults(data.response.results));
     } catch (err) {
       throw err;
     }
