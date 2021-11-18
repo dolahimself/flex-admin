@@ -7,12 +7,12 @@ const PictureBody = () => {
   });
   const [images, setImages] = useState([]);
 
-  const getPhotos = useCallback(() => {
+  const getPhotos = useCallback((page, perPage) => {
     try {
       unsplash.photos
         .list({
-          page: 1,
-          perPage: 10,
+          page: page,
+          perPage: perPage,
         })
         .then((data) => setImages(data.response.results), console.log("data"));
     } catch (err) {
@@ -21,7 +21,7 @@ const PictureBody = () => {
   }, []);
 
   useEffect(() => {
-    getPhotos();
+    getPhotos(1, 10);
   }, [getPhotos]);
 
   return (

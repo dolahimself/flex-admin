@@ -36,7 +36,7 @@ const SideBar = () => {
               className="links_icon"
               sx={{ fontSize: 25, color: "#a6a6a6" }}
             >
-              home
+              message
             </Icon>
             <span className="links_name">Message</span>
           </a>
@@ -47,7 +47,7 @@ const SideBar = () => {
               className="links_icon"
               sx={{ fontSize: 25, color: "#a6a6a6" }}
             >
-              home
+              equalizer
             </Icon>
             <span className="links_name">Ranking</span>
           </a>
@@ -58,7 +58,7 @@ const SideBar = () => {
               className="links_icon"
               sx={{ fontSize: 25, color: "#a6a6a6" }}
             >
-              home
+              stream
             </Icon>
             <span className="links_name">Challenge</span>
           </a>
@@ -69,7 +69,7 @@ const SideBar = () => {
               className="links_icon"
               sx={{ fontSize: 25, color: "#a6a6a6" }}
             >
-              home
+              surfing
             </Icon>
             <span className="links_name">Party</span>
           </a>
@@ -80,9 +80,9 @@ const SideBar = () => {
               className="links_icon"
               sx={{ fontSize: 25, color: "#a6a6a6" }}
             >
-              home
+              account_tree
             </Icon>
-            <span className="links_name">Coonect</span>
+            <span className="links_name">Connect</span>
           </a>
         </li>
         <li>
@@ -91,7 +91,7 @@ const SideBar = () => {
               className="links_icon"
               sx={{ fontSize: 25, color: "#a6a6a6" }}
             >
-              home
+              accessibility
             </Icon>
             <span className="links_name">Parade</span>
           </a>
@@ -102,7 +102,7 @@ const SideBar = () => {
               className="links_icon"
               sx={{ fontSize: 25, color: "#a6a6a6" }}
             >
-              home
+              groups
             </Icon>
             <span className="links_name">Group</span>
           </a>

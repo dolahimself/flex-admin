@@ -3,7 +3,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const NavBar = () => {
   return (
-    <div className="home-section">
+    <div className="home-section" id="home-section">
       <div className="home-content">
         <div className="overview-boxes">
           <div className="box">
